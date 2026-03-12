@@ -1,0 +1,37 @@
+body{
+font-family: Arial;
+background:#f4f6f7;
+text-align:center;
+margin:0;
+}
+
+header{
+background:#0b6e4f;
+color:white;
+padding:30px;
+}
+
+.books{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:40px;
+}
+
+.book{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+width:200px;
+}
+
+.book a{
+display:inline-block;
+margin-top:10px;
+text-decoration:none;
+background:#0b6e4f;
+color:white;
+padding:8px 15px;
+border-radius:5px;
+}
